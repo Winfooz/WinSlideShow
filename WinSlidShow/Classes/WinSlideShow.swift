@@ -77,6 +77,7 @@ open class WinSlideShow: UIView {
 	private func setupScrollView() {
 		self.setNeedsLayout()
 		self.layoutIfNeeded()
+		scrollView.removeFromSuperview()
 		self.scrollView.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
 		self.scrollView.contentSize = CGSize(width: self.frame.width * CGFloat(self.itemCount), height: self.frame.height)
 		self.scrollView.isPagingEnabled = true
@@ -116,9 +117,11 @@ open class WinSlideShow: UIView {
 	}
 	
 	private func setupPageControl() {
+		pageControl?.removeFromSuperview()
 		let height = pageControlconfig.radius * 5
 		let frame = CGRect(x: 0, y: self.frame.height - (height), width: self.frame.width, height: height)
 		 pageControl = WinPageControl(frame: frame, numberOfPages: self.itemCount, config: pageControlconfig)
+		pageControl?.backgroundColor = UIColor.black.withAlphaComponent(0.5)
 		if let pageControl = pageControl {
 		self.addSubview(pageControl)
 		}
