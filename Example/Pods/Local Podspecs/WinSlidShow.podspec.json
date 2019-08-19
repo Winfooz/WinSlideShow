@@ -1,0 +1,27 @@
+{
+  "name": "WinSlidShow",
+  "version": "0.1.0",
+  "summary": "A short description of WinSlidShow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ahmad Almasri/WinSlidShow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ahmad Almasri": "aalmasri@winfooz.com"
+  },
+  "source": {
+    "git": "https://github.com/Ahmad Almasri/WinSlidShow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WinSlidShow/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "~> 3.8.2"
+    ]
+  }
+}
