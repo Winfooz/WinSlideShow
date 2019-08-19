@@ -1,9 +1,9 @@
 # WinSlidShow
 
-[![CI Status](https://img.shields.io/travis/Winfooz/WinSlidShow.svg?style=flat)](https://travis-ci.org/Winfooz/WinSlidShow)
-[![Version](https://img.shields.io/cocoapods/v/WinSlidShow.svg?style=flat)](https://cocoapods.org/pods/WinSlidShow)
-[![License](https://img.shields.io/cocoapods/l/WinSlidShow.svg?style=flat)](https://cocoapods.org/pods/WinSlidShow)
-[![Platform](https://img.shields.io/cocoapods/p/WinSlidShow.svg?style=flat)](https://cocoapods.org/pods/WinSlidShow)
+[![CI Status](https://img.shields.io/travis/Winfooz/WinSlidSehow.svg?style=flat)](https://travis-ci.org/Winfooz/WinSlideShow)
+[![Version](https://img.shields.io/cocoapods/v/WinSlideShow.svg?style=flat)](https://cocoapods.org/pods/WinSlideShow)
+[![License](https://img.shields.io/cocoapods/l/WinSlideShow.svg?style=flat)](https://cocoapods.org/pods/WinSlidSehow)
+[![Platform](https://img.shields.io/cocoapods/p/WinSlideShow.svg?style=flat)](https://cocoapods.org/pods/WinSlideShow)
 
 ## Example
 
