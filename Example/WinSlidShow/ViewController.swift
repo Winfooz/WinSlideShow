@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 	}
 	
 	private func setupRemoteSloder() {
+		for i in 0...5 {
 		remoteSlider.setImage(source: .remote([ "https://picjumbo.com/wp-content/uploads/pienza-town-in-tuscany_free_stock_photos_picjumbo_DSC04564-2210x1473.jpg",
 			"https://i0.wp.com/picjumbo.com/wp-content/uploads/tuscany-sunset.jpg",
 			"https://picjumbo.com/wp-content/uploads/traveling-to-manarola-cinque-terre-follow-me-to-free-photo-DSC04349-2210x1473.jpg",
@@ -39,6 +40,7 @@ class ViewController: UIViewController {
 		remoteSlider.pageControlconfig.inactiveTintColor = .white
 		remoteSlider.pageControlconfig.radius = 7
 		remoteSlider.showPageControl = true
+		}
 	}
 	private func setupLocalSloder() {
 		localSlider.setImage(source: .local([#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local"),#imageLiteral(resourceName: "local")]))

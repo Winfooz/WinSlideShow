@@ -29,7 +29,7 @@ open class WinSlideShow: UIView {
 	
 	// MARK:- Vars
 	public weak var delegate: ImageSliderDelegate?
-	public let scrollView = UIScrollView()
+	private var scrollView = UIScrollView()
 	private var itemCount: Int = 0
 	private var pageControl: WinPageControl?
 	public var currentPage = 0 {
@@ -77,6 +77,7 @@ open class WinSlideShow: UIView {
 	private func setupScrollView() {
 		self.setNeedsLayout()
 		self.layoutIfNeeded()
+		_ = scrollView.subviews.map({$0.removeFromSuperview()})
 		scrollView.removeFromSuperview()
 		self.scrollView.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: self.frame.height)
 		self.scrollView.contentSize = CGSize(width: self.frame.width * CGFloat(self.itemCount), height: self.frame.height)
