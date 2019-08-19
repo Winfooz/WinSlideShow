@@ -6,7 +6,7 @@
 
 <b>ScreenShots</b>
 
-<img src="https://github.com/Winfooz/WinSlideShow/blob/master/screenshot/sc1.png"  width="450">
+<img src="https://github.com/Winfooz/WinSlideShow/blob/master/screenshots/sc1.png"  width="450">
 
 
 ## Example
