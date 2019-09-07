@@ -127,6 +127,12 @@ open class WinSlideShow: UIView {
 		self.addSubview(pageControl)
 		}
 	}
+	
+	public func scroll(to position: Int) {
+		
+		self.currentPage = position
+		scrollView.contentOffset = CGPoint(x: scrollView.frame.size.width * CGFloat(position), y: 0)
+	}
 }
 
 extension WinSlideShow: UIScrollViewDelegate {
