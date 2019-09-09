@@ -122,7 +122,7 @@ open class WinSlideShow: UIView {
 		let height = pageControlconfig.radius * 5
 		let frame = CGRect(x: 0, y: self.frame.height - (height), width: self.frame.width, height: height)
 		 pageControl = WinPageControl(frame: frame, numberOfPages: self.itemCount, config: pageControlconfig)
-		pageControl?.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+		pageControl?.backgroundColor = pageControlconfig.pagerBackgroundColor
 		if let pageControl = pageControl {
 		self.addSubview(pageControl)
 		}

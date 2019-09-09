@@ -19,4 +19,5 @@ public class WinPageControlConfig {
 	public var minScaleValue: CGFloat = 0.4
 	public var middleScaleValue: CGFloat = 0.7
 	public var inactiveTransparency: CGFloat = 0.7
+	public var pagerBackgroundColor: UIColor = UIColor.black.withAlphaComponent(0.5)
 }
