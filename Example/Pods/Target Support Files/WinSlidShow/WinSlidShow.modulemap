@@ -1,6 +1,0 @@
-framework module WinSlidShow {
-  umbrella header "WinSlidShow-umbrella.h"
-
-  export *
-  module * { export * }
-}

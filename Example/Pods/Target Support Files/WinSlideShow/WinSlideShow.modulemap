@@ -1,0 +1,6 @@
+framework module WinSlideShow {
+  umbrella header "WinSlideShow-umbrella.h"
+
+  export *
+  module * { export * }
+}

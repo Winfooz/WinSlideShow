@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import WinSlidShow
+import WinSlideShow
 
 class ViewController: UIViewController {
 	

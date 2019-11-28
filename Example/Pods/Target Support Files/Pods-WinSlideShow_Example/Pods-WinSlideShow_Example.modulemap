@@ -1,0 +1,6 @@
+framework module Pods_WinSlideShow_Example {
+  umbrella header "Pods-WinSlideShow_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

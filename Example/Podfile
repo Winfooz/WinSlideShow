@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'WinSlidShow_Example' do
-  pod 'WinSlidShow', :path => '../'
+target 'WinSlideShow_Example' do
+  pod 'WinSlideShow', :path => '../'
 
-  target 'WinSlidShow_Tests' do
+  target 'WinSlideShow_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.2.0'
