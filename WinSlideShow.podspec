@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WinSlideShow'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'Image slideshow written in Swift with circular scrolling'
 
 s.description      = <<-DESC

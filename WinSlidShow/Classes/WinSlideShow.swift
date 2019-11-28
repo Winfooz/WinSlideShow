@@ -87,6 +87,7 @@ open class WinSlideShow: UIView {
 		layout.minimumInteritemSpacing = 0
 		
 		bannerView = UICollectionView(frame: frame, collectionViewLayout: layout)
+		bannerView.backgroundColor = .white
 		bannerView.isPagingEnabled = true
 		bannerView.register(RemoteCell.self, forCellWithReuseIdentifier: "\(RemoteCell.self)")
 		self.addSubview(bannerView)
